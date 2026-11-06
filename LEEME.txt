@@ -1,0 +1,10 @@
+Invitacion cumple 1 año - Salome (15 nov 2026, 3:00 pm, Bonda-Masinga)
+
+- index.html: la invitacion completa (abrelo en el navegador). Ya trae las imagenes incrustadas.
+- ilustracion-salome.jpeg / foto-salome.jpeg: imagenes originales (respaldo).
+- Para recibir las confirmaciones por WhatsApp, edita en index.html la linea:
+  var WHATSAPP_NUMBER = "";
+  y escribe tu numero solo con digitos y codigo de pais (ej. Colombia: 573001234567).
+  El texto del mensaje se cambia en la variable MENSAJE.
+- Para mejorar el boton "Como llegar", cambia el texto de busqueda en la linea que empieza con $("map").href
+- Necesita internet para cargar las tipografias de Google Fonts.
